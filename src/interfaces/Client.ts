@@ -1,1 +1,6 @@
-export type Client = Record<string, unknown>;
+export interface Client {
+  id?: number;
+  name: string;
+  email: string;
+  phone: string;
+}
